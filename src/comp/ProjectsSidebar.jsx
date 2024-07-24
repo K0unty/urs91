@@ -1,3 +1,5 @@
+import Button from "./Button.jsx";
+
 export default function ProjectsSidebar() {
   return (
     <aside className="w-1/3 px-8 py-16 bg-emerald-950 text-emerald-400 md:w-72 rounded-r-xl">
@@ -5,9 +7,7 @@ export default function ProjectsSidebar() {
         Your PJs
       </h2>
       <div>
-        <button className="px-4 py-2 texct-xs md:text-base rounded-md bg-orange-950  text-orange-500 hover:bg-orange-600 hover:text-orange-100">
-          + AddPj
-        </button>
+        <Button>+ AddPj</Button>
       </div>
       <ul></ul>
     </aside>
