@@ -1,6 +1,6 @@
 export default function Input({ label, textarea, ...props }) {
   const classes =
-    "w-full p-1 border-b-2 rounded-sm border-stone-300 bg-stone-200 text-stone-600 focus:outline-none focus:border-stone-600";
+    "w-full p-1 border-b-2 rounded-sm border-stone-300 bg-stone-200 text-cyan-300 focus:outline-none focus:border-stone-600 bg-cyan-900";
 
   return (
     <p className="flex flex-col my-4 ">

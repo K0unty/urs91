@@ -5,7 +5,7 @@ export default function NewProject() {
     <div className="w-[35rem] mt-16 bg-cyan-950">
       <menu className="flex items-center justify-end gap-4 my-4">
         <li>
-          <button className="text-stone-800 hover:text-stone-950">
+          <button className="bg-cyan-500 p-2 text-cyan-800 hover:text-cyan-950">
             Cancel
           </button>
         </li>
