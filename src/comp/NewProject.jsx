@@ -37,9 +37,9 @@ export default function NewProject({ onAdd }) {
         </li>
       </menu>
       <div>
-        <Input ref={title} label="Title" />
+        <Input type="text" ref={title} label="Title" />
         <Input ref={description} label="Description" textarea />
-        <Input ref={dueDate} label="DueDate" />
+        <Input type="date" ref={dueDate} label="DueDate" />
       </div>
     </div>
   );
