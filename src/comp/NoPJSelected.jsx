@@ -1,6 +1,6 @@
 import Button from "./Button.jsx";
 
-export default function NoPjelected() {
+export default function NoPjelected({ onStartAddProject }) {
   const imageURL = "https://i.ibb.co/SQnN72Q/17943510.webp";
   return (
     <div className="mt-24 text-center w-2/3 bg-rose-900">
@@ -10,7 +10,7 @@ export default function NoPjelected() {
       </h2>
       <p className="text-stone-400 mb-4">Select project or get started</p>
       <p className="mt-8">
-        <Button>Create New</Button>
+        <Button onClick={onStartAddProject}>Create New</Button>
       </p>
     </div>
   );
