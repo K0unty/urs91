@@ -1,8 +1,10 @@
+import ProjectsSidebar from "./comp/ProjectsSidebar.jsx";
+
 function App() {
   return (
-    <>
-      <h1 className="my-8 text-center text-5xl font-bold">Hello World</h1>
-    </>
+    <main className="h-screen my-1 bg-fixed bg-no-repeat bg-center bg-[url('/cy1.jpg')]">
+      <ProjectsSidebar />
+    </main>
   );
 }
 
