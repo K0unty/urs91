@@ -59,7 +59,7 @@ function App() {
       return {
         ...prevState,
         selectProjectId: undefined,
-        project: prevState.projects.filter(
+        projects: prevState.projects.filter(
           (project) => project.id !== prevState.selectProjectId
         ),
       };
